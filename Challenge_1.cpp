@@ -43,6 +43,5 @@ int main() {
     cout << "Is adult: " << (age >= 18 ? "Yes" : "No") << endl;
     cout << "Is tall coder: " << ((height >= 170 && lovesCoding) ? "Yes" : "No") << endl;
     cout << "Initial is vowel: " << (initial == 'A' || initial == 'E' || initial == 'I' || initial == 'O' || initial == 'U' || initial == 'a' || initial == 'e'  || initial == 'i'  || initial == 'o'  || initial == 'u' ? "Yes" : "No") << endl;
-
     return 0;
 }
